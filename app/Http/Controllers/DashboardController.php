@@ -13,6 +13,6 @@ class DashboardController extends \TCG\Voyager\Http\Controllers\VoyagerControlle
      */
     public function index()
     {
-        return Voyager::view("voyager::dashboard.index");
+        return view("dashboard");
     }
 }
